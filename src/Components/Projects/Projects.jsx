@@ -43,7 +43,7 @@ const Projects = () => {
                                 <li>Link para o meu github e linkedIn</li>
                                 </ul>
                               <div className="links">
-                                   <a href="https://github.com/Ga5000/Portfolio-1.0"> <img src={github_icon} alt="" /></a>
+                                   <a href="https://github.com/Ga5000/Portfolio-1.0/" target="_blank"> <img src={github_icon} alt="" /></a>
                                    <a href="#"> <img src={website_icon} alt="" /></a>                              </div>
                          
                     </div>
