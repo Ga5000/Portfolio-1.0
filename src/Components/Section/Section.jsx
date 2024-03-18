@@ -40,6 +40,28 @@ const Section = () => {
     }
   }, [isTyping, typedOccupation, occupation]);
 
+
+  useEffect(() => {
+    const downloadPdf = () => {
+      const pdfContent = '<h1>Hello, this is a PDF!</h1>';
+      const blob = new Blob([pdfContent], { type: 'application/pdf' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'Gabriel-CV-2024.pdf';
+      link.target = '_blank';
+      link.click();
+      URL.revokeObjectURL(url);
+    };
+
+    const cvButton = document.querySelector('.cv');
+    cvButton.addEventListener('click', downloadPdf);
+
+    return () => {
+      cvButton.removeEventListener('click', downloadPdf);
+    };
+  }, []);
+
   return (
     <section className='me-section'>
       <main className='me-main'>

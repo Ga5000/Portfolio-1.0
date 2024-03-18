@@ -93,6 +93,7 @@
     padding: 5px;
     transition: all 0.3s ease;
     cursor: pointer;
+
 }
 
 .social-media .cv:hover{
@@ -100,6 +101,7 @@
     color: var(--color2);
     box-shadow: 0 2px 5px rgba(0,177,25,0.5);
 }
+
 .social-media a{
     background: var(--bg-primary);
     height: 40px;
