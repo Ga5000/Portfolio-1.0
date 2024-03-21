@@ -101,6 +101,11 @@
     border-radius: 5px;
   }
 
+  .techs .p-title{
+    color: var(--color4);
+  }
+
+
   .used-techs{
     display: grid;
     grid-template-columns: repeat(3,auto);
@@ -229,6 +234,8 @@
     border-radius: 2px;
     animation: flip 3s forwards;
 }
+
+
 
 .desc h4, 
 .desc h6 {

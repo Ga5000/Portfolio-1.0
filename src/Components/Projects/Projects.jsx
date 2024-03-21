@@ -44,7 +44,8 @@ const Projects = () => {
                                 </ul>
                               <div className="links">
                                    <a href="https://github.com/Ga5000/Portfolio-1.0/" target="_blank"> <img src={github_icon} alt="" /></a>
-                                   <a href="#"> <img src={website_icon} alt="" /></a>                              </div>
+                                   <a href="#"> <img src={website_icon} alt="" /></a>                              
+                                   </div>
                          
                     </div>
                     
@@ -58,7 +59,7 @@ const Projects = () => {
                 <div className={`project ${flipped[1] ? "flip" : "unflip"}`}>
                     <img className='project-img' src={youtubeImg} alt="" />
                     <div className="techs">
-                        <h3>Youtube Clone</h3>
+                        <h3 className='p-title'>Youtube Clone</h3>
                         <div className="used-techs">
                             <img src={react_icon} alt="" />
                             <img src={css_icon} alt="" />
@@ -70,12 +71,12 @@ const Projects = () => {
     <h6>Características :</h6>
     <ul>
         <li>Clone da interface do Youtube</li>
-        <li>Integração com a API do Youtube para buscar e exibir vídeos</li>
-        <li>Utilização de React para a construção da interface</li>
-        <li>Estilização com CSS</li>
+        <li>Integração com a API do Youtube para exibir vídeos</li>
+        <li>Exibe os videos de acordo com a categoria</li>
     </ul>
     <div className="links">
-        <a href=""><img src={github_icon} alt="GitHub" /></a>
+        <a href="https://github.com/Ga5000/YouTube-Clone"><img src={github_icon} alt="GitHub" /></a>
+        <a href="#"> <img src={website_icon} alt="" /></a>
     </div>
 </div>
                     <div className="details">
