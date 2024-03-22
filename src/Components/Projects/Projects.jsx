@@ -75,8 +75,8 @@ const Projects = () => {
         <li>Exibe os videos de acordo com a categoria</li>
     </ul>
     <div className="links">
-        <a href="https://github.com/Ga5000/YouTube-Clone"><img src={github_icon} alt="GitHub" /></a>
-        <a href="https://gabrielyoutube-clone.netlify.app/"> <img src={website_icon} alt="" /></a>
+        <a href="https://github.com/Ga5000/YouTube-Clone" target="_blank"><img src={github_icon} alt="GitHub" /></a>
+        <a href="https://gabrielyoutube-clone.netlify.app/" target="_blank"> <img src={website_icon} alt="" /></a>
     </div>
 </div>
                     <div className="details">
