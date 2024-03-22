@@ -76,11 +76,11 @@ const Projects = () => {
     </ul>
     <div className="links">
         <a href="https://github.com/Ga5000/YouTube-Clone"><img src={github_icon} alt="GitHub" /></a>
-        <a href="#"> <img src={website_icon} alt="" /></a>
+        <a href="https://gabrielyoutube-clone.netlify.app/"> <img src={website_icon} alt="" /></a>
     </div>
 </div>
                     <div className="details">
-                        <p className='status'>Em desenvolvimento</p>
+                        <p className='status'>Concluído</p>
                         <button className="see-more" onClick={() => flip(1)}>{flipped[1] ? "voltar" : "ver mais"}</button>
                     </div>
                    
